@@ -35,6 +35,7 @@ body{
     text-decoration: none;
 }
 .apresentacao{
+    gap: 82px;
     padding: 0 15%;
     display: flex;
     align-items: center;
@@ -71,8 +72,6 @@ body{
     font-family: var(--font-principal);
     font-size: 1.5rem;
     font-weight: 400;
-
-
 }
 
 .apresentacao__links__navegacao{
@@ -111,5 +110,21 @@ body{
     font-family: var(--font-secundaria);
     margin-top: 2%;
    
+}
+@media (max-width: 1390px) {
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 10%;
+    }
+    .apresentacao__conteudo {
+        width: auto;
+    }
+    
+
+
 }
 
