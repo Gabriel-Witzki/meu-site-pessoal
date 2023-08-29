@@ -123,8 +123,9 @@ body{
     .apresentacao__conteudo {
         width: auto;
     }
-    
-
-
+}
+.certificado{
+    text-decoration: none;
+    color: var(--cor-secundaria);
 }
 
